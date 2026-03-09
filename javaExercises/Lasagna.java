@@ -17,7 +17,7 @@ public class Lasagna {
     public int totalTimeInMinutes(int layers, int numMinutesInOven) {
         return preparationTimeInMinutes(layers) + numMinutesInOven;
     }
-    
+
     public static void main(String[] args) {
         Lasagna lasagna = new Lasagna();
         int output = lasagna.preparationTimeInMinutes(30);

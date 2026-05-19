@@ -10,7 +10,7 @@ public class LogLevels {
     public static String logLevel(String logLine) {
         return logLine.split("]: ")[0].substring(1).toLowerCase();
     }
-
+ 
     // Reformats log line such that message is first
     public static String reformat(String logLine) {
         String msg = message(logLine);
